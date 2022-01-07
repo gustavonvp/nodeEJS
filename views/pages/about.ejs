@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<%- include('head'); %>
+<%- include('../partials/head'); %>
 
 <style>
     .st{
@@ -10,9 +10,9 @@
 
 <body>
 
-    <%- include('header'); %>
+    <%- include('../partials/header', {pagina: 'sobre'}); %>
 
-    <%- include('main'); %>
+    <%- include('../partials/main'); %>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/">EJS Is Fun</a>
@@ -27,7 +27,7 @@
       </nav>
 
 
-    <%- include('footer'); %>
+    <%- include('../partials/footer'); %>
     <p class="text-center text-muted">&copy; Copyright 2022 GT</p>
     
         <div class="st">
